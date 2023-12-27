@@ -1,27 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Exo+2&display=swap');
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  /* --foreground-rgb: #ffffff; */
+
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    /* --foreground-rgb: #ffffff; */
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb)); */
+  color: white !important;
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'Exo 2', sans-serif !important;
+    background: rgb(6,4,8);
+background: linear-gradient(90deg, rgba(6,4,8,1) 0%, rgba(18,12,23,1) 23%, rgba(53, 29, 70) 39%, rgba(41, 19, 61) 53%, rgba(23, 5, 36) 71%, rgba(5,0,10,1) 100%);
 }
+@layer utilities {
+  .border-gradient-purple-teal {
+    border-image: linear-gradient(to right, #8A2BE2, #008080);
+    border-image-slice: 1;
+    border-width: 4px; /* Adjust the border width as needed */
+    border-style: solid;
+    
+  }
+}
+
+.sellform{
+  background: rgb(255,255,255);
+background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(217, 189, 253) 23%, rgba(220,199,247,1) 39%, rgba(202,164,255,1) 53%, rgba(209,179,252,1) 71%, rgba(255,255,255,1) 100%);
+}
+.css-38raov-MuiButtonBase-root-MuiChip-root .MuiChip-deleteIcon {
+  color: white ;
+}
+
+.tab{
+  background: rgb(241,237,255);
+background: linear-gradient(51deg, rgba(241,237,255,1) 0%, rgba(225,212,247,1) 23%, rgba(222,199,250,1) 39%, rgba(206,174,252,1) 53%, rgba(206,175,249,1) 71%, rgba(220,201,251,1) 84%, rgba(229,223,251,1) 100%);
+}
+.tabcontent{
+  background: #b084f9;
+}
+
+

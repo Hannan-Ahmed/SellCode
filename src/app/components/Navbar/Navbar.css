@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Exo+2&display=swap');
+
+.nav_tag{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.nav{
+    /* background: rgb(9,5,22);
+    background: linear-gradient(90deg, rgba(9,5,22,1) 0%, rgb(29, 22, 75) 42%, rgb(28, 21, 68)60%, rgba(17,11,40,1) 100%);
+    
+    */
+    box-shadow: 0px 7px 7px rgba(110, 245, 238, 0.2); /* Change values for desired shadow effect */
+
+    background: rgb(122,77,163);
+background: linear-gradient(90deg, rgba(122,77,163,1) 0%, rgba(73,138,205,1) 28%, rgba(21,149,149,1) 36%, rgba(21,149,149,1) 56%, rgba(69,139,201,1) 67%, rgba(73,138,205,1) 69%, rgba(138,43,226,1) 100%);
+
+}
